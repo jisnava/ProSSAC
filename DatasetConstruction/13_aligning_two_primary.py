@@ -1,5 +1,5 @@
 #Program to align two primary sequence
-# So one primary sequence in one file, and with its id go to the second file and take primary from there then align both
+# So one primary sequence in one file, and with its id go to the second file and take primary from there and align both
 import os
 import re
 import math
@@ -53,36 +53,3 @@ for file in os.listdir(directory_path1):
 	alignments=pairwise2.align.globalxx(string_1,string_2)
 	print(format_alignment(*alignments[0]))
 
-"""
-
-(re.search('>'+id+':A:sequence',line1):
-		elif (re.search(needle,line1)):
-			#id=line1.split(':')[0]
-			#print(id)
-			#i=i+1
-			s=0
-				always_print= True
-			now_print = False
-			#print(line1, end='')
-			print("\n")
-			print(line1)
-			#print("\n")
-			#f2.write(line1)
-		elif '>' not in line1 and always_print:
-			print(line1, end='')
-			#s=s+len(line1)
-			#print(s)
-			#f2.write(line1)
-		elif (re.search(needle1,line1)):
-			now_print= True
-			always_print = False
-			print("\n")
-			#print(line1)
-		elif '>' not in line1 and now_print:
-			print(line1, end='')
-		elif '>' in line1:
-			always_print = False
-			now_print= False
-			#print("\n")
-	
-"""
