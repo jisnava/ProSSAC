@@ -1,5 +1,5 @@
 # To remove line gaps 
-#This you can simply remove not necessarily with this code
+#This you can simply remove and not necessarily with this code
 import re
 import os
 import math
