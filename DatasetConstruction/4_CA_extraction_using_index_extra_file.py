@@ -1,5 +1,5 @@
 #Extracts only CA ATOM RECORD line from 'pdb' file
-#Duplicate code of file 4_CA...
+#This is an extra file, user can run only 4_CA_extraction.py. If any spacing issues comes they can try this as well(otherwise no need to run)
 import os
 import math
 import glob
