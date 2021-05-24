@@ -1,5 +1,6 @@
-#Program to align two primary sequence
-# So one primary sequence in one file, and with its id go to the second file and take primary from there then align both
+#Final dataset construction program
+# Takes each protein details(single letter primary and coordinate details) and aligned information.
+# And assigns secondary structure details to the tertiary coordinates from the aligned information
 import os
 import re
 import math
@@ -22,12 +23,7 @@ for file in os.listdir(directory_path1):
 	#z=len(lines)
 	L=[]
 	string_1=lines[2]
-	#print(z)
-	#print(len(string_1))
-	#print(lines[4])
-	#for i in range(0,x):
-	#print(string_1,end='')
-	#print("\n")
+
 
 	with open('18_17_aligned_with_three_sequence.txt','r') as f:
 		line1 = f.readlines()
@@ -46,9 +42,7 @@ for file in os.listdir(directory_path1):
 	needle2= '^\d'
 	needle1='[0-9A-Z]:A:secstr'
 	x=len(line1)
-    	#z=len(string_1)+3
-	#y=len(linel)
-	#print(x)
+    	
 	for i in range(x):
 		#print("Hello")
 		if (re.search(needle,line1[i])):
