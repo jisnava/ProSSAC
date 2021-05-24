@@ -17,7 +17,7 @@ for file in os.listdir(directory_path1):
             if ((f_name[0] ==needle)):
                 os.remove(directory_path1+file)
             else:
-                print("hai")
+                print("nothing")
 	
 			
 print("Written")
