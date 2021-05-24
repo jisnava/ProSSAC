@@ -1,4 +1,4 @@
-#Program to extract primary and secondary sequences of A chain only
+#Program to extract primary and secondary sequences of A chains only from ss.txt
 # This program extracts A chain details only from ss.txt file, however users can extract all chain details by making a small modification to the codes
 #ss.txt file can be downloaded from RCSB-PDB website. It contains primary and secondary(assigned by DSSP) of all proteins in RCSB-PDB
 import os
@@ -16,10 +16,7 @@ if not haystack:
 i=0
 always_print=False
 needle='[0-9A-Z]:A:'
-#for line in f1:
-	#needle = line.strip()
-	#print(needle)
-	#print("\n")
+
 for line1 in haystack.splitlines():
 	if (re.search(needle,line1)):
 		#print(i,'found')
