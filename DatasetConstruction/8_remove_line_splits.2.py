@@ -32,17 +32,14 @@ for line1 in haystack.splitlines():
 		now_print= False
 		#print(line1)
 	elif (re.search(needle,line1)):
-		#id=line1.split(':')[0]
-		#print(id)
-		#i=i+1
+		
 		s=0
 		always_print= True
 		now_print = False
 		#print(line1, end='')
 		print("\n")
 		print(line1)
-		#print("\n")
-		#f2.write(line1)
+		
 	elif '>' not in line1 and always_print:
 		print(line1, end='')
 		#s=s+len(line1)
