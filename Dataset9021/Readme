@@ -1,3 +1,11 @@
 Includes the complete dataset information, and also the Inputs and outputs in separate files.
 
 Output labels are one hot encoded. (codes for one hotencoding is given in - toonehot.py in this folder)
+
+Due to the large size, the numpy files are not uploaded here. However, it will be available upon request to the corresponding author (jisna_p170107cs@nitc.ac.in)
+OR 
+The users can convert the input and output files to numpy format suitable for training purposes, using some programming language. While converting to numpy format, the convention adopted by us is:
+Input file: 23 dimensions; 20 for onehot encoding of amino acid and remaining three for 3D coordinates.
+In output file: one hot encoding of three class secondary structure states.
+
+
