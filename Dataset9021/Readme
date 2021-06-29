@@ -1,11 +1,17 @@
-Includes the complete dataset information, and also the Inputs and outputs in separate files.
+This is PDB40SI dataset: (9021 structures and 1,965,868 residues)-refer ppaper for more details.
 
-Output labels are one hot encoded. (codes for one hotencoding is given in - toonehot.py in this folder)
+Includes the entire dataset information - the Inputs and outputs in separate files.
 
-Due to the large size, the numpy files are not uploaded here. However, it will be available upon request to the corresponding author (jisna_p170107cs@nitc.ac.in)
-OR 
-The users can convert the input and output files to numpy format suitable for training purposes, using some programming language. While converting to numpy format, the convention adopted by us is:
-Input file: 23 dimensions; 20 for onehot encoding of amino acid and remaining three for 3D coordinates.
-In output file: one hot encoding of three class secondary structure states.
+One hot encoded output label is used in the output file. (Codes for one hot encoding may be found in the - toonehot.py folder)
+
+The numpy files are not uploaded here because of their large size. 
+However, it will be made accessible upon request to the corresponding author (jisna_p170107cs@nitc.ac.in) 
+OR
+Using a programming language, users can convert the input and output files to numpy format, suitable for training purposes. 
+
+We use the following convention for converting to numpy format:
+
+Input file has 23 dimensions, including 20 for one-hot amino acid encoding and 3 for 3D coordinates.
+One hot encoding of three class secondary structure states is present in the output file.
 
 
