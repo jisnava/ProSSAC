@@ -3,7 +3,7 @@ This is PDB40SI dataset: (9021 structures and 1,965,868 residues)-refer paper fo
 Includes the entire dataset - the Inputs and outputs in separate files.
 The labels are given in eight-class format, so that users can convert them to three-class when needed.
 
-One hot encoded output label is used for training the models. (Codes for one hot encoding may be found in the - toonehot.py folder)
+One hot encoded output label is used for training the models. (Codes for one hot encoding(of labels and the dictionary used for inputs) may be found in the - toonehot.py folder)
 
 The numpy files are not uploaded here because of their large size. 
 However, it will be made accessible upon request to the corresponding author (jisna_p170107cs@nitc.ac.in) 
