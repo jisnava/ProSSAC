@@ -9,3 +9,5 @@ This project includes the following:
 Additionally, users can also generate outputs without training the model using the saved model and its weights (in the SavedModelsandWeights folder). The users must, however, generate the test set (Test set I) independently or by following the same procedure as described in dataset construction.
 
 Test set II is selected randomly from the newly created dataset(available in Dataset9021 and Dataset22532PDB50SI folders)  without any other construction procedures. The text and NumPy(available upon request) formats are available.
+
+(More details are included in the readme files uploaded within the corresponding folders)
