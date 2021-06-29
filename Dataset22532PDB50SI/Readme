@@ -1,7 +1,10 @@
 This is PDB50SI dataset:(22,532 structures and 5,102,185 residues)-refer ppaper for more details.
-he labels are given in eight-class format, so that users can convert them to three-class when needed.
+The labels are given in eight-class format, so that users can convert them to three-class when needed.
 
 Includes the entire dataset information - the Inputs and outputs in separate files.
+The entire dataset file is split into three parts- The users can merge those files to get the entire dataset file.
+
+The input file is also split into two parts- The users can merge those files to get the entire input file.
 
 One hot encoded output label is used in the output file. (Codes for one hot encoding(of labels and the dictionary used for inputs) may be found in the - toonehot.py folder)
 
